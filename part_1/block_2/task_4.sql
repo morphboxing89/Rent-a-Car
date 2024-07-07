@@ -1,6 +1,4 @@
-SELECT *
-    FROM Custumers
-    ORDER BY lastName;
+SELECT DISTINCT brand FROM Autos;
 
 
 SELECT brand, count(*) FROM Autos
