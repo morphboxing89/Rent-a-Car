@@ -1,6 +1,6 @@
 UPDATE Custumers
     SET firstname='Timur'
-    WHERE id = 6621;
+    WHERE id = 1;
 
 UPDATE Autos
     SET brand='BMW X5'
