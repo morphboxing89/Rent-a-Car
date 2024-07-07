@@ -1,6 +1,6 @@
 SELECT *
     FROM Custumers
-    ORDER BY lastname;
+    ORDER BY lastName;
 
 
 SELECT brand, count(*) FROM Autos
