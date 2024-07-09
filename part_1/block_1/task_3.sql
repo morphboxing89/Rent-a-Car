@@ -27,7 +27,3 @@ CREATE TABLE Issued_cars --Выданные автомобили
     FOREIGN KEY (custumer_id) REFERENCES Custumers(id),
     FOREIGN KEY (autos_id) REFERENCES Autos(id)
 );
-
--- INSERT INTO Custuners (firstName,middleName, lastName)
---     VALUES('Artem', 'Alexsandrovich', 'Sirotin'),
---            ('Alex', 'Alexsandrovich', 'Batashev');
